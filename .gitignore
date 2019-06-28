@@ -1,0 +1,31 @@
+# Build
+*.js.map
+*.css.map
+__*.json
+_*.css
+*__min_.jpg
+*__min_.jpeg
+*__min_.svg
+*__min_.png
+*__min_.gif
+
+# Package managers
+npm-debug.log
+yarn-error.log
+
+# Editors
+.vscode
+.idea
+.sublime*
+
+# OS X junk
+.AppleDouble
+.DS_Store
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Windows junk
+ehthumbs.db
+Thumbs.db
+Desktop.ini
