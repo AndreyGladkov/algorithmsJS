@@ -1,0 +1,18 @@
+{
+  "name": "algorithmsJS",
+  "version": "1.0.0",
+  "description": "Algorithms  implemented in JavaScript",
+  "main": "index.js",
+  "repository": "git@github.com:AndreyGladkov/algorithmsJS.git",
+  "author": "AndreyGladkov <andrewgladkovlz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "tests": "yarn jest --config jest.config.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
+  }
+}
