@@ -12,6 +12,7 @@ _*.css
 # Package managers
 npm-debug.log
 yarn-error.log
+node_modules/
 
 # Editors
 .vscode

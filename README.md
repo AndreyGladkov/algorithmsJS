@@ -1,2 +1,2 @@
-# algorithmsJS
+# AlgorithmsJS
  Algorithms  implemented in JavaScript
