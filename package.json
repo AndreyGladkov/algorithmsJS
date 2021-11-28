@@ -10,9 +10,9 @@
     "tests": "yarn jest --config jest.config.js"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.4.5",
-    "babel-jest": "^24.8.0",
-    "jest": "^24.8.0",
-    "prettier": "^1.18.2"
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "prettier": "^1.19.1"
   }
 }

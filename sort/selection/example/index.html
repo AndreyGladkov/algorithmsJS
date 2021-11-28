@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            .array-item {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                box-sizing: border-box;
+                height: 50px;
+                width: 5px;
+                margin: 0 3px 3px 0;
+                background: black;
+                color: white;
+            }
+            .array-item_checked {
+                background: aquamarine;
+            }
+
+            .array-item_gt-base {
+                background: red;
+            }
+
+            .array-item_lt-base {
+                background: blue;
+            }
+            .array-item_base {
+                background: orange;
+            }
+
+            .colors {
+                display: inline-flex;
+                width: 20px;
+                height: 20px;
+            }
+
+            .colors_base {
+                background: orange;
+            }
+
+            .colors_lt-base {
+                background: blue;
+            }
+
+            .colors_gt-base {
+                background: red;
+            }
+
+            .colors__label {
+                display: inline-flex;
+                margin: 0 10px;
+            }
+
+            .colors-wrapper {
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <button class="JS-Button-Run">Quick Sort</button>
+            Visualization of quick sort
+            <div class="colors-wrapper">
+                <div class="colors colors_base"></div>
+                <div class="colors__label">- pivot element</div>
+                <div class="colors colors_lt-base"></div>
+                <div class="colors__label">- less pivot element</div>
+                <div class="colors colors_gt-base"></div>
+                <div class="colors__label">- greater pivot element</div>
+            </div>
+            <hr />
+        </div>
+        <div id="root-app"></div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
